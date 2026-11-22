@@ -1,96 +1,17 @@
-
-<!doctype html>
-<html lang="zh-Hant">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-
-  <title>首頁 – GameVoulmeHotkey</title>
-  <meta name="description" content="輕量 Windows 工具：用全域快捷鍵控制系統音量">
-
-  <link rel="icon" href="assets/favicon.ico">
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-
-<header>
-  <nav>
-    <a class="brand" href="index.html">🔊 GameVolumeHotkey</a>
-    <a href="index.html">首頁</a>
-    <a href="usage.html">使用方式</a>
-    <a href="build.html">建置</a>
-  </nav>
-</header>
-
-<main>
-
-  <section class="hero">
-    <div class="lock">🔊</div>
-
-    <h1>GameVolumeHotkey</h1>
-
-    <p>
-      輕量的 Windows 桌面工具：玩遊戲、工作或使用全螢幕程式時，
-      用<strong>全域快捷鍵</strong>控制系統音量。
-      以 C++ 與 Qt 6 開發。
-    </p>
-
-    <a class="btn" href="usage.html">使用方式</a>
-
-    <a class="btn alt" href="build.html">自行建置</a>
-
-    <a class="btn" href="https://github.com/neil289506-commits/GameVoulmeHotkey/releases/latest/download/GVHK.zip">
-      ⬇ 下載 GameVolumeHotkey.exe
-    </a>
-
-    <a class="btn alt" href="https://github.com/neil289506-commits/GameVoulmeHotkey/releases/latest">
-      GitHub Releases
-    </a>
-
-  </section>
-
-  <div class="grid">
-
-    <div class="card">
-      <h3>全域快捷鍵</h3>
-      <p>靜音／取消靜音、音量增加、音量減少，視窗沒有焦點也能用。</p>
-    </div>
-
-    <div class="card">
-      <h3>即時系統音量</h3>
-      <p>透過 Windows Core Audio（<code>IAudioEndpointVolume</code>）。</p>
-    </div>
-
-    <div class="card">
-      <h3>系統匣常駐</h3>
-      <p>縮到系統匣背景執行。</p>
-    </div>
-
-    <div class="card">
-      <h3>開機自啟動</h3>
-      <p>可選，於系統匣選單切換。</p>
-    </div>
-
-    <div class="card">
-      <h3>單一執行個體</h3>
-      <p>避免重複開啟多個視窗。</p>
-    </div>
-
-    <div class="card">
-      <h3>設定自動儲存</h3>
-      <p>快捷鍵與偏好儲存在 <code>config.json</code>。</p>
-    </div>
-
-  </div>
-
-</main>
-
-<footer>
-  僅支援 Windows 10 以上 ·
-  <a href="https://github.com/neil289506-commits/GameVoulmeHotkey">GitHub</a>
-</footer>
-
-<script src="js/main.js"></script>
-
-</body>
-</html>
+<!DOCTYPE html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>首頁 · GameVolumeHotkey</title><meta name="description" content="輕量 Windows 桌面工具:用全域快捷鍵控制系統音量,以 C++ 與 Qt 6 開發"><link rel="icon" href="assets/favicon.ico"><link rel="stylesheet" href="css/style.css"></head>
+<body data-repo="neil289506-commits/GameVoulmeHotkey"><canvas id="bg" data-mode="sparks"></canvas><div class="vignette"></div><div class="glow"></div>
+<nav><a class="logo" href="index.html"><img src="assets/logo.svg" alt="">GameVolumeHotkey</a><a class="l on" href="index.html">首頁</a><a class="l" href="usage.html">使用方式</a><a class="l" href="build.html">下載 / 建置</a><a class="gh" href="https://github.com/neil289506-commits/GameVoulmeHotkey" target="_blank" rel="noopener">GitHub ↗</a><a class="dl" data-dl href="https://github.com/neil289506-commits/GameVoulmeHotkey/releases/latest" target="_blank" rel="noopener">⬇ 最新版 <span class="vt" data-tag></span></a></nav>
+<section class="hero"><span class="badge"><i></i>Windows 全域音量快捷鍵 · Open Source</span><h1>GameVolumeHotkey<br>全螢幕也能調音量,<span class="g">快捷鍵一按就好</span></h1><p class="lead">玩遊戲、工作或使用全螢幕程式時,用<strong>全域快捷鍵</strong>控制系統音量。以 C++ 與 Qt 6 開發,常駐系統匣。</p><div class="cta"><a class="btn p" data-dl href="https://github.com/neil289506-commits/GameVoulmeHotkey/releases/latest" target="_blank" rel="noopener">⬇ 下載最新版 <small data-tag></small></a><a class="btn" href="usage.html">📖 使用方式</a><a class="btn" href="https://github.com/neil289506-commits/GameVoulmeHotkey" target="_blank" rel="noopener">★ GitHub</a></div><div class="stats"><div><b>5%</b><span>每次調整幅度</span></div><div><b>3</b><span>組預設快捷鍵</span></div><div><b>Core Audio</b><span>系統音量 API</span></div></div></section>
+<div class="marquee"><div><span>Alt+Delete</span><span>Alt+↑</span><span>Alt+↓</span><span>系統匣</span><span>開機自啟動</span><span>單一執行個體</span><span>config.json</span><span>IAudioEndpointVolume</span><span>Qt 6</span><span>CMake</span><span>windeployqt</span><span>Alt+Delete</span><span>Alt+↑</span><span>Alt+↓</span><span>系統匣</span><span>開機自啟動</span><span>單一執行個體</span><span>config.json</span><span>IAudioEndpointVolume</span><span>Qt 6</span><span>CMake</span><span>windeployqt</span></div></div>
+<section id="try"><h2 class="reveal">試玩:全域音量快捷鍵</h2><p class="sub reveal">模擬 Alt+Delete 靜音、Alt+↑ / Alt+↓ 每次調整 5%。</p><div class="panel reveal" id="demo">
+<p style="color:var(--mut);margin-bottom:14px">點一下此區塊後,按 <code>Alt+↑</code> / <code>Alt+↓</code> / <code>Alt+Delete</code>,或使用下方按鈕。</p>
+<div id="gv" tabindex="0" style="outline:none;border:1px solid var(--line);border-radius:18px;padding:26px;background:#0004;text-align:center">
+ <div id="vi" style="font-size:3rem">🔊</div><div id="vn" style="font-size:2.4rem;font-weight:900;color:var(--a)">50%</div>
+ <div class="bar" style="max-width:420px;margin:14px auto"><i id="vb" style="width:50%"></i></div>
+ <div class="dm-row" style="justify-content:center"><button class="btn s" id="vd">🔉 −5%</button><button class="btn s" id="vm">🔇 靜音</button><button class="btn s" id="vu">🔊 +5%</button></div>
+</div></div></section>
+<section><h2 class="reveal">核心功能</h2><p class="sub reveal">一眼看懂 GameVolumeHotkey 能做什麼。</p><div class="grid"><div class="card reveal"><div class="ic">⌨</div><h3>全域快捷鍵</h3><p>靜音／取消靜音、音量增加、音量減少,視窗沒有焦點也能用。</p></div><div class="card reveal"><div class="ic">🎚</div><h3>即時系統音量</h3><p>透過 Windows Core Audio(<code>IAudioEndpointVolume</code>)。</p></div><div class="card reveal"><div class="ic">📌</div><h3>系統匣常駐</h3><p>縮到系統匣背景執行。</p></div><div class="card reveal"><div class="ic">🚀</div><h3>開機自啟動</h3><p>可選,於系統匣選單切換。</p></div><div class="card reveal"><div class="ic">1️⃣</div><h3>單一執行個體</h3><p>避免重複開啟多個視窗。</p></div><div class="card reveal"><div class="ic">💾</div><h3>設定自動儲存</h3><p>快捷鍵與偏好儲存在 <code>config.json</code>。</p></div></div><div class="cta" style="margin-top:34px"><a class="btn" href="usage.html">了解更多 →</a></div></section>
+<section><div class="panel reveal" style="text-align:center;padding:60px 28px"><h2>準備好了嗎?</h2><p class="sub" style="margin:0 auto 24px">直接下載最新版本,或自行從原始碼建置。</p><div class="cta" style="justify-content:center"><a class="btn p" data-dl href="https://github.com/neil289506-commits/GameVoulmeHotkey/releases/latest" target="_blank" rel="noopener">⬇ 下載最新版 <small data-tag></small></a><a class="btn" href="https://github.com/neil289506-commits/GameVoulmeHotkey" target="_blank" rel="noopener">前往 GitHub</a></div></div></section>
+<footer><div class="g">GameVolumeHotkey</div><p>僅支援 Windows 10 以上 · 由 neil289506-commits 開發</p><p><a href="https://github.com/neil289506-commits/GameVoulmeHotkey" target="_blank" rel="noopener">原始碼</a> · <a href="https://github.com/neil289506-commits/GameVoulmeHotkey/releases/latest" target="_blank" rel="noopener">最新版本</a> · <a href="https://github.com/neil289506-commits/GameVoulmeHotkey/releases" target="_blank" rel="noopener">所有 Releases</a></p></footer>
+<script src="js/fx.js"></script><script src="js/demo.js"></script></body></html>

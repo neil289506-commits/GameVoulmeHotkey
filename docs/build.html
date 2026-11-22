@@ -1,0 +1,9 @@
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>建置 – GameVolumeHotkey</title><meta name="description" content="輕量 Windows 工具：用全域快捷鍵控制系統音量"><link rel="icon" href="assets/favicon.ico"><link rel="stylesheet" href="css/style.css"></head><body>
+<header><nav><a class="brand" href="index.html">🔊 GameVolumeHotkey</a><a href="index.html">首頁</a><a href="usage.html">使用方式</a><a href="build.html">建置</a></nav></header><main>
+<h1>建置</h1><p>需要 Windows 10+、CMake 3.26+、Qt 6.2+，建議 MSVC。</p>
+<pre><code>cmake -S . -B build -G "Visual Studio 17 2022"
+cmake --build build --config Release</code></pre>
+<p>建置時會自動以 <code>windeployqt</code> 部署 Qt 執行環境，之後從建置輸出資料夾執行即可。</p>
+<div class="note">repo 目前沒有宣告授權；若要散布，請先加入授權檔。</div>
+</main><footer>僅支援 Windows 10 以上 · <a href="https://github.com/neil289506-commits/GameVoulmeHotkey">GitHub</a></footer><script src="js/main.js"></script></body></html>
